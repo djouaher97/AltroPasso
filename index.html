@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+ <div class="header">
+   <div class="logo">
+     <img src="altro_passo.png" width="150" height="100"alt="">
+   </div>
+   <ul class="menu">
+     <li><a href="">Home</a></li>
+     <li><a href="">Single</a></li>
+     <li><a href="">Contact</a></li>
+   </ul>
+   <div class="cta">
+     <a href="" class="button"> Contatti</a>
+   </div>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+ </div>
+
+<div class="hero">
+  <div class="hero__content">
+    <p class="intro-text">Benvenuto</p>
+    <h1 class="big-text">Quelli Dell'Altro Passo</h1>
+    <a href="" class="button">Discover more</a>
+  </div>
+</div>
+
+<div class="poster">
+  <div class="poster__img">
+
+  </div>
+  <div class="poster__img">
+    <h3>Prologo</h3>
+    <p>Ho creato questo sito per raccontare e scrivere dei membri del mio gruppo, una banda di matti della bassa reggiana abitanti in quel di Bagnolo in piano, beh che dire un gruppo di matti a quale voglio bene vi raccontero pian piano dei vari membri.</p>
+    <a href="" class="button">Call to action</a>
+  </div>
+</div>
+
+
+
+
+
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script>
+  $( document ).ready(function(){
+
+    /* Open Panel*/
+    $(".hamburger" ).on('click',function(){
+      $(".menu").toggleClass("menu--open");
+    });
+  });
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
