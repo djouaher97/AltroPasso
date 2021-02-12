@@ -35,26 +35,31 @@ p{line-height:28px;color: #666; font-weight: 900;}
   position: fixed;
   top:0;
   left:50%;
+  background-color:#666;
   transform: translatex(-50%);
-  padding: 30px;
+  padding: 0px;
   display: flex;
   max-width: 1360px;
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.5);
 
 }
 
 
 
-
-
-
-
-
 .logo{ z-index :1;}
 
+
 .menu{
+  
   width: 100%;
   z-index :0;
+  color: #000;
   }
+
+
+
+
 
 .menu li{display: inline-block;}
 .menu li a{color: #050402;padding: 45px;display: block;}
