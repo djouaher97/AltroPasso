@@ -38,7 +38,7 @@
         </div>
         <ul class="menu">
             <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#ragazzi">I ragazzi</a></li>
+            <li><a href="index.html#ragazzi">i ragazzi</a></li>
             <li><a href="avventure.html">avventure</a></li>
         </ul>
         <div class="cta">
@@ -49,40 +49,8 @@
             <span></span>
         </div>
     </div>
-
-
-
-
-<div class="hero_adv">
-    <div class="hero__content reveal">
-        <p class="big-text"style="color:grey ;">Avventure</p>
-        <p >qui trovera un elenco delle avventure dei nostri amici</p>
-    </div>
-</div>
-
-
-<div class="poster mt-3 ">
-    <div class="poster__img reveal">
-        <img src="http://www.domanidoveandiamo.it/wp-content/uploads/2018/08/Barcellona-Con-marchio-04.png" alt="">
-    </div>
-    <div class="poster__content reveal">
-        <h3 class="big-text mt-3">BARCELLONA</h3>
-        <p>in questo link troverete le avventure dei nostri amici quando andarono a barcellona</p>
-        <a href="barcellona.html" class="button">link</a>
-    </div>
-</div>
-
-
-<div class="poster2 mt-3 ">
-    <div class="poster__img2 reveal">
-        <img src="https://www.evolutiontravel.eu/wp-content/uploads/sites/2/2018/07/Torre-Sant-Andrea-Salento.jpeg" alt="">
-    </div>
-    <div class="poster__content2 reveal">
-        <h3 class="big-text mt-3" >SALENTO</h3>
-        <p>in questo link troverete le avventure dei nostri amici quando andarono a Gallipoli</p>
-        <a href="salento.html" class="button">link</a>
-    </div>
-</div>
+    
+    
 
 
 
@@ -93,6 +61,17 @@
 
 
 
+
+
+
+
+
+
+
+
+
+    
+    
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     
@@ -115,17 +94,18 @@
                 $(".menu").toggleClass("menu--open");
             });
         });
-    
+
+
+
+        ScrollReveal().reveal('.reveal', { distance: '50px', duration: 1500, easing: 'cubic-bezier(0.5, 0, 0, 1)', interval: 600 });
+
+        ScrollReveal().reveal('.zoom', { duration: 1500, easing: 'cubic-bezier(0.5, 0, 0, 1)', interval: 200, scale: 0.65 });
+
+
     </script>
-
-
-
-
-
-
-
-
-
-</body>
-
-</html>
+    
+    
+    
+    </body>
+    
+    </html>
