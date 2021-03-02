@@ -151,7 +151,7 @@ p{line-height:28px;color: #666; font-weight: 900;}
   .poster__img,
   .poster__content{width: 100%}
 
-  .poster__img2{width: 100%;}
+  .poster__img2{width:auto}
   .poster__content2{width: 100%;padding: 50px;}
 
 }
