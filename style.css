@@ -413,9 +413,8 @@ p{line-height:28px;color: #666; font-weight: 900;}
 /* Hero raga */
 
 .hero_raga {
-    height: 25vh;
+    height: 50vh;
     display: flex; width: 100%; align-items: center;
-    background-size: cover;
 }
 
 
