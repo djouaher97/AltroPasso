@@ -86,7 +86,7 @@ p{line-height:28px;color: #666; font-weight: 900;}
     right: 30px;
   }
 
-  .hamburger span{background: #808080;height: 3px;width: 100%;display: block;margin-bottom: 5px; }
+  .hamburger span{background: #929090;height: 3px;width: 100%;display: block;margin-bottom: 5px; }
 
 }
 
@@ -410,15 +410,13 @@ p{line-height:28px;color: #666; font-weight: 900;}
 .hero_adv__content p{color: #fff;}
 
 
+/* Hero raga */
 
-
-
-
-
-
-
-
-
+.hero_raga {
+    height: 25vh;
+    display: flex; width: 100%; align-items: center;
+    background-size: cover;
+}
 
 
 
